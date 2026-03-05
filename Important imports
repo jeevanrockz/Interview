@@ -1,0 +1,90 @@
+## ✅ Refined Definitions & Uses
+
+### 🔧 Standard Library
+- **os** → Provides functions to interact with the operating system (file paths, environment variables).
+- **sys** → Access system-specific parameters (command-line args, exit codes).
+- **shutil** → High-level file operations (copy, move, delete).
+- **pathlib.Path** → Object-oriented filesystem paths.
+- **datetime** → Dates and times (timestamps, formatting).
+- **time** → Time-related functions (sleep, measure execution).
+- **logging** → Structured logging for debugging and monitoring.
+- **csv** → Read/write CSV files.
+- **hashlib** → Hashing algorithms (MD5, SHA256).
+- **subprocess** → Run external commands/programs.
+- **threading** → Run tasks in parallel threads.
+- **socket** → Networking (TCP/UDP connections).
+- **statistics** → Mean, median, stdev calculations.
+- **collections.Counter, defaultdict** → Specialized containers for counting and default values.
+- **enum.Enum** → Create enumerations.
+- **concurrent.futures.ThreadPoolExecutor** → Parallel execution with thread pools.
+- **re** → Regular expressions for text matching.
+- **random** → Random number generation.
+
+---
+
+### 📊 Data Science & Visualization
+- **numpy** → Numerical computing, arrays.
+- **pandas** → Data manipulation and analysis.
+- **matplotlib.pyplot** → Plotting library.
+- **seaborn** → Statistical data visualization.
+- **plotly.express / plotly.graph_objects** → Interactive charts.
+- **matplotlib.animation** → Animations with Matplotlib.
+- **PIL.Image** → Image processing.
+- **cProfile** → Profiling Python code performance.
+
+---
+
+### 🌐 Web Frameworks
+- **dash** → Build interactive dashboards.
+- **dash.dcc, dash.html, dash.Input, dash.Output** → Dash components and callbacks.
+- **flask** → Lightweight web framework.
+- **flask_socketio** → Real-time communication with WebSockets.
+- **flask_login** → User authentication in Flask.
+- **flask_jwt_extended** → JWT-based authentication.
+- **fastapi** → Modern, fast web framework for APIs.
+- **fastapi.responses.HTMLResponse, FileResponse** → Response types.
+- **fastapi.security.OAuth2PasswordBearer, OAuth2PasswordRequestForm** → Security/authentication.
+- **fastapi.templating.Jinja2Templates** → Template rendering.
+- **fastapi.staticfiles.StaticFiles** → Serve static files.
+- **fastapi.APIRouter** → Modular routing.
+- **pydantic.BaseModel** → Data validation and schemas.
+
+---
+
+### 🗄️ Databases & ORM
+- **mysql.connector** → Connect to MySQL databases.
+- **sqlalchemy** → ORM for relational databases.
+- **sqlalchemy.orm.Session, sessionmaker, declarative_base** → ORM session and models.
+- **sqlalchemy.Column, Integer, String, Float** → Define database table columns.
+
+---
+
+### 🤖 Machine Learning & AI
+- **scikit-learn (sklearn)** modules:
+  - **datasets (fetch_california_housing, load_digits, fetch_20newsgroups, make_blobs)** → Sample datasets.
+  - **model_selection (train_test_split, cross_val_score)** → Splitting data, validation.
+  - **preprocessing (StandardScaler, PolynomialFeatures, OneHotEncoder, LabelEncoder)** → Data scaling, encoding.
+  - **linear_model.LogisticRegression, LinearRegression** → Regression/classification models.
+  - **ensemble (RandomForestClassifier, RandomForestRegressor, GradientBoostingClassifier, GradientBoostingRegressor)** → Ensemble ML models.
+  - **svm.SVC, OneClassSVM** → Support Vector Machines.
+  - **cluster (KMeans, SpectralClustering)** → Clustering algorithms.
+  - **decomposition (PCA, LatentDirichletAllocation)** → Dimensionality reduction, topic modeling.
+  - **neighbors.LocalOutlierFactor** → Outlier detection.
+  - **metrics (classification_report, confusion_matrix, roc_auc_score, roc_curve, precision_recall_curve, silhouette_score, accuracy_score, mean_squared_error, mean_absolute_error, r2_score)** → Model evaluation.
+
+- **imblearn.over_sampling.SMOTE** → Handle imbalanced datasets.
+
+---
+
+### 🖥️ System & Utilities
+- **psutil** → System monitoring (CPU, memory, processes).
+- **winreg** → Windows registry access.
+- **pyperclip** → Clipboard operations.
+- **requests** → HTTP requests.
+- **rich.console, rich.table** → Rich text/console output.
+
+---
+
+### 🧩 Miscellaneous
+- **utils (laplacian, update_wave)** → Custom utility functions (likely project-specific).
+- **app (routes, database, models, schemas)** → Project-specific modules for FastAPI/Flask apps.
